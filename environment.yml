@@ -91,3 +91,6 @@ dependencies:
   - zstd=1.5.2=h6255e5f_0
   - pip:
     - pylas==0.4.3
+    - pyqt5==5.15.6
+    - pyqt5-qt5==5.15.2
+    - pyqt5-sip==12.9.1
