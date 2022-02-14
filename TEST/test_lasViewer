@@ -1,0 +1,22 @@
+"""
+NOTE: To let it work on pyqt5: See bugfix on: https://github.com/tpaviot/pythonocc-core/issues/987, 
+
+replacing on: .\\anaconda3\\envs\\pyocc\\lib\\site-packages\\OCC\\Display\\qtDisplay.py
+
+"class qtBaseViewer(QtOpenGL.QGLWidget):"  =>   "class qtBaseViewer(QtWidgets.QWidget):" 
+
+"""
+
+import sys
+sys.path.append('.')
+
+from lasManipulation import LAS_Viewer
+
+if __name__ == '__main__':
+    import pylas
+
+    las = pylas.read("DATA\\LAS_FILES\Fase 4.las")
+
+    pr = LAS_Viewer(las)
+
+    pr.DisplayLAS( COLOR_TYPE =False)
