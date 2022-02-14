@@ -42,7 +42,7 @@ If it works. Then you can use the 'LASManippulation' module directory as a local
     ```
     conda install -c conda-forge pythonocc-core
     conda install -c anaconda numpy
-    ```checkout 
+    ``` 
     * PIP:
     ```
     pip install pylas
