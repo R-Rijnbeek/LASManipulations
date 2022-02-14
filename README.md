@@ -1,5 +1,7 @@
 # LASManipulations
-Repository with the basic LAS file manipulations for pointcloud. 
+
+Repository with the basic LAS file manipulations for pointcloud. And a Las viewer with pyQt5 (There is still a manual bugfix on the OCC display module, see comment on "test_LasViewer"
+
 ## prerequisites
 
 Has anaconda installed on windows. And configured you system variables ($path) of anaconda on windows: 
