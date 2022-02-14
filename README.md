@@ -40,7 +40,13 @@ If it works. Then you can use the 'LASManippulation' module directory as a local
 2. If you will only use the content of this repository. On a other proyect than ypou need to create an virtual environment that include "numpy" and "scipy"
     * ANACONDA:
     ```
+    conda install -c conda-forge pythonocc-core
     conda install -c anaconda numpy
-    conda install -c anaconda scipy
+    ```checkout 
+    * PIP:
     ```
+    pip install pylas
+    pip install PyQt5
+    ```
+
 3. This repository is tested with windows 10 and anaconda version 4.11.0.
